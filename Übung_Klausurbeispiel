@@ -1,0 +1,9 @@
+<?php
+
+function multiplikation($n)
+{$ergebnis=$n*$n;return $ergebnis;}
+
+echo multiplikation($_GET["n"]);
+
+
+?>
